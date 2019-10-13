@@ -2,12 +2,23 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://www.holbertonschool.com/level2/holberton.css"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/f2f3e69293.js"
+      crossorigin="anonymous"
+    ></script>
+    <link href="styles.css" rel="stylesheet" />
     <title>Who am I</title>
   </head>
-  <body>
+  <body class="works_on_smartphone">
     <header>
       <nav>
         <ul>
+          <li class="logo">🍕</li>
           <li><a href="./index.html">Home</a></li>
           <li><a href="./tweets.html">Tweets</a></li>
           <li><a href="./whoami.html">Who am I</a></li>
@@ -19,53 +30,58 @@
       <article>
         <h1>Who am I</h1>
         <img
+          class="whoami-image"
           src="http://sgarcia.site/assets/img/profile-3.jpg"
           alt="Who am I"
         />
         <p>
-          Hello! I am Sebastián Garía. I am a 23 years old guy from Cali,
-          Colombia. I am Frontend Developer since one year ago and I love to use
-          JavaScript in my projects.
+          Hello! I am Sebastián Garía. I am a 23 years old dev from Cali,
+          Colombia. I like to do Frontend Development since one year ago and I
+          love to eat 🍕.
         </p>
-        <section>
-          <h2>Skills</h2>
-          <ul>
-            <li>HTML5, CSS3</li>
-            <li>JavaScript</li>
-            <li>MySQL, MongoDB, PostgreSQL</li>
-            <li>Python</li>
-            <li>Matlab</li>
-            <li>C/C++</li>
-            <li>PHP</li>
-          </ul>
-        </section>
-        <section>
-          <h2>Technologies</h2>
-          <ul>
-            <li>Reactjs</li>
-            <li>Nodejs</li>
-            <li>Webpack</li>
-            <li>SASS</li>
-            <li>Wordpress</li>
-            <li>Threejs</li>
-            <li>Phaser 3</li>
-          </ul>
-        </section>
-        <section>
-          <h2>
-            Contact me
-          </h2>
+        <p>
+          I also love to learn, and its important to me to improve myself as a
+          good dev, so, here we go.
+        </p>
+        <div class="whoami__lists">
+          <section>
+            <h2>Skills</h2>
+            <ul>
+              <li>HTML5</li>
+              <li>CSS3</li>
+              <li>JavaScript</li>
+              <li>Python</li>
+            </ul>
+          </section>
+          <section>
+            <h2>Technologies</h2>
+            <ul>
+              <li>Reactjs</li>
+              <li>SASS</li>
+              <li>Wordpress</li>
+              <li>Threejs</li>
+            </ul>
+          </section>
+        </div>
+        <section class="whoami__contact">
+          <h3>
+            Get in touch
+          </h3>
           <ul>
             <li>
               <a href="https://www.linkedin.com/in/garcia-ospina-sebastian/"
-                >LinkedIn</a
-              >
+                ><i class="fab fa-linkedin"></i
+              ></a>
             </li>
-            <li><a href="https://twitter.com/sebg96">Twitter</a></li>
+            <li>
+              <a href="https://twitter.com/sebg96"
+                ><i class="fab fa-twitter"></i
+              ></a>
+            </li>
             <li>
               <a href="https://github.com/SGarcia710?tab=repositories"
-                >Github</a
-              >
+                ><i class="fab fa-github"></i
+              ></a>
             </li>
           </ul>
         </section>

@@ -1,0 +1,93 @@
+/* Global styles */
+body,
+main {
+  display: flex;
+}
+body {
+  flex-direction: column;
+}
+main {
+  flex-direction: row;
+  flex: auto;
+}
+article {
+  flex: 2;
+}
+aside {
+  flex: 1;
+}
+article,
+aside {
+  overflow-y: auto;
+}
+header li.logo {
+  font-size: 3em;
+}
+
+article img {
+  display: block;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+/* Index styles */
+article .hero-image {
+  width: 80%;
+}
+
+/* Who am I styles */
+article .whoami-image {
+  width: 45%;
+  margin-bottom: 20px;
+  border-radius: 50%;
+}
+
+article .whoami__lists {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+article ul {
+  padding-left: 0;
+  list-style-type: none;
+}
+article ul li {
+  display: inline;
+}
+
+article .whoami__lists ul li {
+  margin-right: 15px;
+}
+
+article .whoami__contact {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+article .whoami__contact ul li a i {
+  font-size: 2.5em;
+  margin: 0 10px 0 10px;
+}
+
+article .whoami__contact ul li .fa-twitter {
+  color: #1da1f2;
+}
+
+article .whoami__contact ul li .fa-github {
+  color: black;
+}
+
+article .whoami__contact ul li .fa-linkedin {
+  color: #0976b4;
+}
+
+/* Tweets styles */
+article .twitter-tweet {
+  margin: 0 auto;
+}
+
+/* Tutorials styles */
+body > main > article > iframe {
+  margin: 0 auto !important;
+}
