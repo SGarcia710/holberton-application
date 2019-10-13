@@ -20,8 +20,9 @@ article,
 aside {
   overflow-y: auto;
 }
-header li.logo {
+header ul li.logo {
   font-size: 3em;
+  cursor: default;
 }
 
 article img {
